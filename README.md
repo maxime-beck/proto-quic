@@ -31,8 +31,9 @@ Building on Linux
 
 0. Clone this repository:
    ```
-   git clone https://github.com/google/proto-quic.git
+   git clone https://github.com/maxime-beck/proto-quic.git
    cd proto-quic
+   git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
    export PROTO_QUIC_ROOT=`pwd`/src
    export PATH=$PATH:`pwd`/depot_tools
    ./proto_quic_tools/sync.sh
